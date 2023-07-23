@@ -1,5 +1,9 @@
 package tech.luv2code.sms.service;
 
-public interface StudentService {
+import java.util.List;
 
+import tech.luv2code.sms.entity.Student;
+
+public interface StudentService {
+	List<Student> getAllStudents();
 }
